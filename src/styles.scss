@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./sass/sizes" as sizes;
+@use "./sass/colors" as colors;
+
+body{margin: 0;font-family: 'Roboto', sans-serif;}
+
+
+h1 { font-size: sizes.$fontSizeH1;}
+h2 { font-size: sizes.$fontSizeH2;}
+h3 { font-size: sizes.$fontSizeH3;}
+p,a { font-size: sizes.$paragraph;}
+a{text-decoration: none;}
+
+
+.title {word-break: break-word;}
+.subtitle {transform: scale(0.75); font-weight: 500;}
+.bg-primary { background-color: colors.$primaryColor;}
+.bg-secondary  { background-color: colors.$secondaryColor;}
+.bg-tertiary  { background-color: colors.$tertiaryColor;}
+.text-primary { color: colors.$primaryColor;}
+.text-secondary  { color: colors.$secondaryColor;}
+.text-tertiary  { color: colors.$tertiaryColor;}
+.hover-link:hover {color: colors.$primaryColor;}

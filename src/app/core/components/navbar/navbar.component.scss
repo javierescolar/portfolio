@@ -1,0 +1,24 @@
+@import "../../../../sass/buttons";
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.img-brand {
+  width: 90px;
+  height: 90px;
+}
+
+.links a{
+  margin: auto 10px;
+  font-weight: bold;
+}
+
