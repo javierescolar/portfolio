@@ -1,0 +1,27 @@
+.contact{
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 860px;
+  color: white;
+  gap: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  h3,p {
+    margin: 0 auto;
+  }
+
+}
+a {
+  color: white;
+}
+
+
+@media (max-width: 760px) {
+  .contact{
+    flex-direction: column;
+  }
+}

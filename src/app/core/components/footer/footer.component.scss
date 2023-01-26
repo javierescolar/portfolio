@@ -1,15 +1,8 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
-  min-height: 400px;
   text-align: center;
-}
-
-.box-container{
-  display: flex;
   flex-direction: column;
-  max-width: 860px;
 }
 
 
@@ -18,28 +11,13 @@
   height: 80px;
 }
 
-.contact{
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(0,-50%);
-  color: white;
-  gap: 40px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
-
-
 .social-networks{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-@media (max-width: 760px) {
-  .contact{
-    flex-direction: column;
-  }
+.phrase {
+  h3 {margin: 10px auto;}
 }
+
