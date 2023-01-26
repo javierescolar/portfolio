@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ThatIAmComponent } from './that-i-am/that-i-am.component';
+import { Component, OnInit } from '@angular/core';
+
 import { GreetingComponent } from './greeting/greeting.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ThatIAmComponent } from './that-i-am/that-i-am.component';
 
 @Component({
   selector: 'app-home',
@@ -14,5 +15,11 @@ import { SkillsComponent } from './skills/skills.component';
 export class HomeComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    let count = 0;
+    setInterval(() => {
+      count++;
+      console.log(count);
+    }, 2000);
+  }
 }
